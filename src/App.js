@@ -36,7 +36,6 @@ class App extends Component {
       todos: [...this.state.todos, newTodo],
       newTodoDescription: ''
     })
-
   }
 
   render() {
